@@ -123,7 +123,7 @@ const removeUserData = () => {
       
 
       const content = { adminName:adminCon, meetingId:meetingId };
-      fetch(`https://facesyncbackend.onrender.com/seeMeet`, {
+      fetch(`https://face-sync.onrender.com/seeMeet`, {
         method: "POST",
         credentials: "include",
         headers: {
