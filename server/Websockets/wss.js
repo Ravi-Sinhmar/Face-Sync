@@ -5,7 +5,7 @@ const { Server } = require('socket.io');
 const server = http.createServer(app);
 const io = new Server(server, {
   cors: {
-    origin: "https://live-face.vercel.app", // Replace with your React app URL
+    origin: "https://face-sync-video.vercel.app", // Replace with your React app URL
     methods: ["GET", "POST"]
   }
 });
